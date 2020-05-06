@@ -1,0 +1,18 @@
+jarvis:
+  security:
+    oauth:
+      accesstokenuri: http://172.17.0.2:8080
+      client:
+        mbbk:
+          secret: 8fee40ae-846a-48d8-b69f-5be1ac43ef8d
+          client: mbbk
+          grantType: client_credentials
+          scope: openid
+        slfc:
+          secret: 7f4e21a9-3187-4204-9bd5-32cd9b79edec
+          client: salesforce
+          grantType: client_credentials
+          scope: openid
+
+
+
